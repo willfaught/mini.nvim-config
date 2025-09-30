@@ -1,3 +1,5 @@
+-- mini.nvim
+
 require('mini.ai').setup({})
 require('mini.align').setup({})
 require('mini.basics').setup({})
@@ -29,6 +31,12 @@ require('mini.surround').setup({})
 require('mini.trailspace').setup({})
 require('mini.visits').setup({})
 
-vim.cmd("colorscheme gruvbox")
 vim.o.signcolumn = "auto"
 vim.opt.shortmess:append("I")
+
+-- vscode.nvim
+
+require('vscode').setup({})
+
+vim.o.background = 'dark'
+vim.cmd("colorscheme vscode")

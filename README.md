@@ -1,4 +1,4 @@
-# Whorl
+# mini.nvim-config
 
 Neovim configuration based on [mini.nvim](https://github.com/echasnovski/mini.nvim).
 
